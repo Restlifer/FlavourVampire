@@ -1,1 +1,2 @@
 <!-- readme -->
+Selangkah demi selangkah 
