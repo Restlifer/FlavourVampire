@@ -19,12 +19,14 @@
 *.rar
 *.tar
 *.zip
+*.apk
 
 # Logs and databases #
 ######################
 *.log
 *.sql
 *.sqlite
+*.log
 
 # OS generated files #
 ######################
