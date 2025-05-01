@@ -1,1 +1,1 @@
-<!-- Selamat Datang Ke palat -->
+<!-- Selamat Datang Ke Taik palat -->
