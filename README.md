@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 # Sample data
 categories = ['Red Banner', 'Blue Flag', 'Green Shield']
-values = [25, 40, 30]
+values = [50, 90, 90]
 
 # Create the bar chart
 plt.figure(figsize=(8, 6))
