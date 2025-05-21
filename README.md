@@ -1,31 +1,20 @@
-//Initialize the array that will hold the primes
-var primeArray = [];
-/*Write a function that checks for primeness and
-pushes those values to the array*/
-function PrimeCheck(candidate){
-  isPrime = true;
-  for(var i = 2; i < candidate && isPrime; i++){
-    if(candidate%i === 0){
-      isPrime = false;
-    } else {
-      isPrime = true;
-    }
-  }
-  if(isPrime){
-    primeArray.push(candidate);
-  }
-  return primeArray;
-}
-/*Write the code that runs the above until the
-length of the array equals the number of primes
-desired*/
+import matplotlib.pyplot as plt
 
-var numPrimes = prompt("How many primes?");
+# Sample data
+categories = ['Red Banner', 'Blue Flag', 'Green Shield']
+values = [25, 40, 30]
 
-//Display the finished array of primes
+# Create the bar chart
+plt.figure(figsize=(8, 6))
+bars = plt.bar(categories, values, color=['red', 'blue', 'green'])
 
-//for loop starting at 2 as that is the lowest prime number keep going until the array is as long as we requested
-for (var i = 2; primeArray.length < numPrimes; i++) {   
-    PrimeCheck(i); //
-}
-console.log(primeArray);
+# Add a red banner (styled title)
+plt.title('Sales by Product Type', fontsize=16, color='white', backgroundcolor='red', pad=20)
+
+# Axis labels
+plt.xlabel('Product Type')
+plt.ylabel('Sales')
+
+# Display the chart
+plt.tight_layout()
+plt.show()
