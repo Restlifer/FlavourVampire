@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+Butuh
 
 # Sample data
 categories = ['Red Banner', 'Blue Flag', 'Green Shield']
