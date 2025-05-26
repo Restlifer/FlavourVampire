@@ -1,7 +1,7 @@
 Butuh
 
 # Sample data
-categories = ['Red Banner', 'Blue Flag', 'Green Shield']
+categories = ['puki taik', 'Blue Flag', 'Green Shield']
 values = [50, 90, 90]
 
 # Create the bar chart
